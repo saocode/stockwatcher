@@ -1,0 +1,2 @@
+serviceClass: com.google.gwt.sample.stockwatcher.client.GnodeService
+path: 9E8181C97177E15A2F98EC18A9D12E60.gwt.rpc

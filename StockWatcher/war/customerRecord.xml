@@ -1,0 +1,31 @@
+ <?xml version="1.0" encoding="US-ASCII"?>
+<CustomerRecord>
+  <name>Girish Tewari</name>
+  <notes>Roseindia.net Rohini</notes>
+  <orderHistory>
+  <order id="05mca02" status="pending">
+  <item Firstname="Girish">Bronze Sword</item>
+  <address>
+  <city>Haldwani</city>
+  <state>Uttaranchal</state>
+  <zipCode>263126</zipCode>
+  </address>
+  <Lastname>Tewari</Lastname>
+  </order>
+  </orderHistory>
+  
+  <name>Mahendra Singh Dhoni</name>
+  <notes>Roseindia.net Rohini</notes>
+  
+  <orderHistory>
+  <order id="05mca03" status="pending">
+  <item Firstname="Mahendra">Bronze Sword</item>
+  <address>
+  <city>Lucknow</city>
+  <state>UttarPradesh</state>
+  <zipCode>263139</zipCode>
+  </address>
+  <Lastname>Tewari</Lastname>
+  </order>
+  </orderHistory>
+</CustomerRecord>
