@@ -35,7 +35,7 @@ GnodeService {
 		//checkLoggedIn();
 		PersistenceManager pm = getPersistenceManager();
 		try {
-			pm.makePersistent(new Gnode("xxx"));
+			pm.makePersistent(new Gnode(symbol));
 		} finally {
 			pm.close();
 		}
@@ -96,7 +96,7 @@ GnodeService {
 						+ nodes.getLength());
 
 				if (nodes != null && nodes.getLength() > 0) {
-					for (int i = 0; i < nodes.getLength(); i++) {
+					for (int i = 0; i < 10; i++) {
 
 						Node node = nodes.item(i);
 
@@ -112,8 +112,8 @@ GnodeService {
 									.item(0).getNodeValue());
 							String s = nodeList.item(0).getChildNodes()
 									.item(0).getNodeValue();
-							Window.alert("Gnode should be added: " + s);
-
+							addGnode(s);
+							
 						}
 
 					}
